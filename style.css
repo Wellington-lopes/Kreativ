@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    margin: 0;
+    color: #496F74;
+    font-size: 20px;
+    padding-bottom: 650px;
+    padding-right: 850px;
+}
+
+.left {
+    border: solid 2px green;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+  
+}
+
+h2{
+    padding: 30px 0;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 15px ;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 100px 0;
+}
+
+.card {
+    display: flex;
+}
+
+label {
+    font-size: 14px;
+    padding: 0 0 4px 0;
+}
+
+input::placeholder {
+    color: rgb(194, 190, 190);
+}
+
+input {
+    padding: 5px;
+    width: 15vw;
+}
+
+.left p {
+    font-size: 10px;
+    color: rgb(194, 190, 190);
+}
+
+span {
+    font-size: 10px;
+    color: rgb(194, 190, 190);
+}
+
+#grad {
+    background-image: linear-gradient(to right, red , yellow);
+  }
