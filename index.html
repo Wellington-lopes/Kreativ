@@ -15,7 +15,7 @@
             <div class="card">
                 <div class="textfield">
 
-                    <h2>Let’s get you started</h2>
+                    <h2>Let's get you started</h2>
             
                     <label>Full Name</label>
                     <input type="text" placeholder="Ade Tiger">
@@ -34,6 +34,7 @@
 
                     <label>Create password</label>
                     <input type="password" placeholder="*******">
+                    <img class="eye" src="./assets/eyeclose.png" alt="eye close">
 
                     <br>
 
@@ -41,23 +42,30 @@
                     <p>Password must contain at least one symbol e.g. @</p>
 
                     <br>
-
+                    
                     <label>Location <span>(Optional)</span></label>
-                    <input type="text" placeholder="Select location">
+                    <select name="location">
+                        <option value="" id="loc">Select Location</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="eua">EUA</option>
+                        <option value="Arg">Argentina</option>
+                    </select>
                 
                     <br>
 
                     <button type="button" class="btn">Sign Up</button>
-                    <p>Already a user? <a href="#">Login</a></p>
+                    <p class="login">Already a user? <a href="#">Login</a></p>
                 </div>
             </div>    
           
 
         </section>
         <section class="right">
-            <p> <a>Home</a> <a>Contact</a></p>
-            <h1>“Creativity is intelligence having fun”</h1>
-            <p>-Albert Einstein</p>
+            <p class="topo"> <a href="#">Home</a> <a href="#">Contact</a></p>
+            <div class="container">
+                <h1>“Creativity is intelligence having fun”</h1>
+                <p>- Albert Einstein</p>
+            </div>
         </section>
     </main>
 </body>

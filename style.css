@@ -14,6 +14,7 @@ main {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-image: linear-gradient(to bottom right, #3E708E, #64969B);
 }
 
 .logo {
@@ -21,17 +22,49 @@ main {
     margin: 0;
     color: #496F74;
     font-size: 20px;
-    padding-bottom: 650px;
-    padding-right: 850px;
+    margin-bottom: 650px;
+    margin-right: 850px;
 }
 
 .left {
-    border: solid 2px green;
     padding: 30px;
     display: flex;
     justify-content: center;
     width: 30vw;
-  
+    height: 80vh;
+    background-color: #FFFFFF;
+}
+
+.right {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height:80vh;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #517879 , #1E3E57);
+    color: #FFFFFF;
+}
+
+.right h1 {
+    font-size: 3vw;
+    padding-bottom: 30px;
+}
+.container {
+padding-bottom: 80px;
+padding-left: 20px;
+}
+
+.topo {
+    position: absolute;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 650px;
+    margin-left: 230px;
+}
+
+.topo a {
+    padding: 10px;
 }
 
 h2{
@@ -63,6 +96,10 @@ input::placeholder {
 input {
     padding: 5px;
     width: 15vw;
+    border-radius: 5px;
+    outline: none;
+    border-style: solid;
+    border-color: #CCCCCC;
 }
 
 .left p {
@@ -75,6 +112,32 @@ span {
     color: rgb(194, 190, 190);
 }
 
-#grad {
-    background-image: linear-gradient(to right, red , yellow);
-  }
+.btn {
+    background: #284A5E;
+    color: white;
+    padding: 5px 0;
+    border-radius: 4px;
+}
+
+select {
+    padding: 5px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.eye {
+    position: absolute;
+    width: 20px;
+    margin-top: 353px;
+    margin-left: 250px;
+}
